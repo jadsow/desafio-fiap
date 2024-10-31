@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="/desafio-fiap/script.js"></script>
+    <title>Desafio FIAP 31/10</title>
+  </head>
+  <body>
+    <div id="container-form">
+      <section id="header">
+        <h1 class="fonte-form">POSTECH - FULLSTACK</h1>
+        <p class="fonte-form">Desafio aula inaugural</p>
+      </section>
+      <section id="card-form">
+        <div style="padding: 20px">
+          <h3 style="margin-bottom: 20px">Informações do grupo</h3>
+
+          <label for="nome">Nome</label><br />
+          <input class="tamanho-input" type="text" name="nome" id="nome" />
+          <br />
+          <br />
+
+          <label for="nome2">Nome</label><br />
+          <input class="tamanho-input" type="text" name="nome2" id="nome2" />
+          <br />
+          <br />
+
+          <label for="historia">História do grupo</label><br />
+          <input
+            class="tamanho-input-historia"
+            name="historia"
+            id="historia"
+          ></input>
+          <br />
+        </div>
+        <div id="div-botao">
+          <button id="botao-enviar" onclick="enviarForm()">Enviar</button>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
